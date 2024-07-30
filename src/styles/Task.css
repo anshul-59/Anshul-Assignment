@@ -1,0 +1,19 @@
+.task-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.task-card.open {
+  border-color: #007bff;
+}
+
+.task-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
